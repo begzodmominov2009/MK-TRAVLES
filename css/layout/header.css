@@ -1,0 +1,45 @@
+.novbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.novbar__menus {
+    display: flex;
+    gap: 60px;
+    font-size: 24px;
+}
+
+.novbar__menus a {
+    color: white;
+}
+.novbar__logo{
+    width: 200px;
+}
+.togle{
+    display: none;
+}
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: #f6cb8594;
+}
+@media (max-width:580px) {
+    .novbar__menus{
+        display: none;
+    }
+    .novbar__logo{
+        width: 150px;
+        padding-left: 15px;
+    }
+    .togle{
+        display: block;
+        padding-right: 20px;
+    }
+
+}
+
