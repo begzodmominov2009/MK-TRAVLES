@@ -28,7 +28,7 @@ header {
     z-index: 1;
     background-color: #f6cb8594;
 }
-@media (max-width:580px) {
+@media (max-width:780px) {
     .novbar__menus{
         display: none;
     }

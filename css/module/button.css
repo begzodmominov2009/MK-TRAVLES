@@ -76,6 +76,14 @@
     border: 2px solid white;
     margin-left: 520px;
     margin-top: 25px;
+    background-color: transparent;
+    width: 155px;
+    height: 35px;
+    border-radius: 7px;
+    padding-left: 35px;
+    margin-top: 24px;
+    transition: 0.5s;
+    cursor: pointer;
 }
 .trips__button__img{
     display: flex;
@@ -84,4 +92,8 @@
 }
 .trips__button:hover{
     border: none;
+    background-color: var(--blue-color);
+}
+.trips__button a{
+    color: white;
 }
